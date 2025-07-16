@@ -9,7 +9,7 @@ body {
   align-items: center;
   position: relative;
 }
-//chew
+
 #jar {
   position: absolute;
   top: 0;
@@ -19,7 +19,7 @@ body {
   object-fit: cover;
   z-index: 0;
 }
-//im a cutie ok
+
 #paper {
   position: absolute;
   top: 8vh;
@@ -37,7 +37,7 @@ body {
   border-radius: 8px;
 }
 #paper::after {
-  content: "💕";
+  content: " 💗";
   font-size: 0.9em;
   margin-left: 0.3em;
 }
