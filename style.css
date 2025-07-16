@@ -37,7 +37,9 @@ body {
   border-radius: 8px;
 }
 #paper::after {
-  content: " 🩷";
+  content: "💗";
+}
+;
   font-size: 0.9em;
   margin-left: 0.3em;
 }
