@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fdf7f2;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#jar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: 0;
+}
+
+#paper {
+  position: absolute;
+  top: 8vh;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fae9dc;
+  border: 2px solid #e19797;
+  padding: 4vh 6vw;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  color: #4d2d2d;
+  z-index: 2;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  max-width: 90vw;
+  border-radius: 8px;
+}
+#paper::after {
+  content: " 🩷";
+  font-size: 0.9em;
+  margin-left: 0.3em;
+}
