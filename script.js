@@ -8,8 +8,7 @@ const ideas = [
   "Firefly Bungee",
   "Yoga @Wellness Group",
   "North Market",
-  "Budd Dairy Co",
-  "panini opa"
+  "Budd Dairy Co"
 ];
 
 function spawnSparkle(offsetX) {
